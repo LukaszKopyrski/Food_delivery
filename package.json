@@ -1,0 +1,25 @@
+{
+  "name": "fooddelivery",
+  "version": "1.0.0",
+  "description": "one page website",
+  "main": "script.js",
+  "scripts": {
+    "compile": "node-sass main.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukaszKopyrski/food_delivery.git"
+  },
+  "author": "Lukasz Kopyrski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukaszKopyrski/food_delivery/issues"
+  },
+  "homepage": "https://github.com/LukaszKopyrski/food_delivery#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "package.json": "^2.0.1"
+  }
+}
