@@ -34,6 +34,7 @@ body {
     font-weight: 700; }
     .header .header__logo .logo__anchor, .header .header__logo .logo__anchor:visited, .header .header__logo .logo__anchor:focus {
       text-decoration: none;
+      list-style-type: none;
       color: #04030f; }
     .header .header__logo .logo__svg {
       fill: #04030f;
@@ -311,9 +312,9 @@ body {
       display: flex;
       flex-direction: column; }
   .footer .contact__list, .footer .social__list, .footer .list__item {
+    text-decoration: none;
     list-style-type: none;
-    color: #04030f;
-    text-decoration: none; }
+    color: #04030f; }
     .footer .contact__list li, .footer .social__list li, .footer .list__item li {
       width: -webkit-fit-content;
       width: -moz-fit-content;
@@ -335,4 +336,5 @@ body {
     height: min-content; }
     .footer .footer__info a, .footer .footer__info :hover, .footer .footer__info :visited, .footer .footer__info :focus {
       text-decoration: none;
+      list-style-type: none;
       color: #04030f; }
